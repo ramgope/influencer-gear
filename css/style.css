@@ -20,7 +20,7 @@ header {
 .menu-bar {
     display: flex;
     width: 80%;
-    background-color: rgb(208, 255, 208);
+    background-color: rgb(225, 255, 225);
     margin: auto;
     justify-content: space-between;
     align-items: center;
@@ -53,13 +53,20 @@ header {
 /* ===============main section starts============== */
 main {
     width: 80%;
-    background-color: rgb(236, 255, 213);
+    background-color: rgb(255, 181, 214);
     margin: auto;
+    color: var(--text-color);
 }
 
+/* ===============Main-Top section starts============== */
 .main-top {
     display: flex;
     align-items: center;
+    height: 500px;
+}
+
+.main-text {
+    width: 55%;
 }
 
 .main-text h1 {
@@ -80,10 +87,45 @@ main {
     text-decoration: none;
 }
 
+.main-text a i {
+    padding-top: 50px;
+}
+
+.main-img {
+    width: 40%;
+    background-image: url(../images/Circle\ design.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main-img img {
     width: 100%;
-    border: 3px solid #bf83ff;
-    border-radius: 50%;
+}
+
+/* ===============Main-Top section ends============== */
+
+hr {
+    color: var(--border-color);
+    margin: 20px auto;
+}
+
+/* ===============Company-Logo section starts============== */
+
+/* ===============Company-Logo section ends============== */
+.company-logo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.company-logo a {
+    text-decoration: none;
+}
+
+.company-logo img {
+    width: 80px;
+    height: 40px;
 }
 
 /* ===============main section ends============== */
