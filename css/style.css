@@ -15,14 +15,12 @@
 /* ===============Header section starts============== */
 header {
     width: 100%;
-    background-color: #ffb9b9;
     color: var(--text-color);
 }
 
 .menu-bar {
     display: flex;
     width: 1050px;
-    background-color: rgb(225, 255, 225);
     margin: auto;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +53,6 @@ header {
 /* ===============main section starts============== */
 main {
     width: 1050px;
-    background-color: rgb(255, 181, 214);
     margin: auto;
     color: var(--text-color);
 }
@@ -109,7 +106,8 @@ main {
 /* ===============Main-Top section ends============== */
 
 hr {
-    color: var(--border-color);
+    /* color: #ffffff; */
+    background: #000;
     margin: 20px auto;
 }
 
@@ -241,3 +239,37 @@ hr {
 /* ===============Featured Products section ends============== */
 
 /* ===============main section ends============== */
+
+/* ===============Footer section starts============== */
+footer {
+    width: 100%;
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 0;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.social-sites a {
+    text-decoration: none;
+    color: white;
+    background-color: #151238;
+    border-radius: 25px;
+}
+
+.social-sites a i {
+    margin: 20px;
+}
+
+/* ===============Footer section ends============== */
